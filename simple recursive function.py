@@ -7,5 +7,5 @@ def srf(a, b):
         return f'{a}, {srf(a - 1, b)}'
 
 
-print(srf(1, 4))
+print(srf(1, 6))
 print(srf(5, 1))
