@@ -11,3 +11,6 @@ for i in range(2, n):
             j += i
 
 print(sieve)
+
+sieve_1 = [i for i in sieve if i != 0]
+print(sieve_1)
